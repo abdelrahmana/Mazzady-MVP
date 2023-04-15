@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    app:strokeWidth="1dp"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/selectionParentName"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="@+id/messageCenter"
+            app:layout_constraintTop_toBottomOf="@+id/iconHeader"
+            android:layout_width="match_parent"
+            android:id="@+id/cardSearch"
+            app:cardCornerRadius="6dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/background_search"
+            app:layout_constraintEnd_toEndOf="@+id/notificationId"
+            android:minHeight="50dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:gravity="center_vertical"
+                android:drawablePadding="8dp"
+                android:hint="@string/search_hint"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:drawableStartCompat="@drawable/ic_search" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/itemValue"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

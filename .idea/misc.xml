@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable-v24/dot_selected.xml" value="0.1625" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable-v24/retreat_drawable.xml" value="0.111" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/dot_default.xml" value="0.1625" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/dot_selected.xml" value="0.1" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/dot_selector.xml" value="0.1625" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/dots_selector.xml" value="0.1" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/gradient_buy.xml" value="0.111" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/ic__bidders_icon.xml" value="0.1625" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1515" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/ic_back.xml" value="0.1625" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/ic_launcher_background.xml" value="0.157" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/ic_love.xml" value="0.113" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/ic_search.xml" value="0.157" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/refs.xml" value="0.1625" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/retreat_drawable.xml" value="0.1" />
+        <entry key="..\:/AndroidTask/app/src/main/res/drawable/start_video.xml" value="0.1" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/fill_request_fragment.xml" value="0.25" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/fragment_details.xml" value="0.22" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/fragment_show_preview.xml" value="0.2" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/image_slider.xml" value="0.2" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/loader_layout.xml" value="0.2" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/one_item_preview.xml" value="0.2" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/one_item_selection.xml" value="0.25" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/one_item_seller.xml" value="0.18" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/redirect_layout.xml" value="0.2" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/root_one_item.xml" value="0.22" />
+        <entry key="..\:/AndroidTask/app/src/main/res/layout/selection_bottomsheet.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
