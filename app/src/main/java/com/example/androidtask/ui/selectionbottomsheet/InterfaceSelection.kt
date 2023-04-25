@@ -109,6 +109,9 @@ class OptionImplementer(val viewModel: FillRequestViewModel,val dataProperty :Da
             dataProperty?.other_value = "Other"
             dataProperty?.value = "Other"
             selectedOption = dataProperty?.selectedOption
+            dataProperty?.options?.forEach{
+                it?.data?.clear() // reinitalize list
+            } // remove the childs
 
         }
         else {
